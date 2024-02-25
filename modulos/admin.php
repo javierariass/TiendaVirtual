@@ -24,7 +24,10 @@ if(isset($_SESSION['id']))
 {
 	?>
 	<a href="?p=agregar_producto">
-	<button class="btn btn-primary"><i class="fa fa-plus-circle"></i>Agregar Productos</button> 
+	<button class="btn btn-primary"><i class="fa fa-plus-circle"></i> Agregar Productos</button> 
+
+	<a href="?p=agregar_categoria">
+	<button class="btn btn-primary"><i class="fa fa-plus-circle"></i> Agregar Categoria</button> 
 </a>
 <?php
 }
@@ -40,13 +43,13 @@ else
 	
 	
 	<div class = "form-group">
-		<input  style="font-size: 20px;padding: 10px;" size="40" type="text" class = "form-control" placeholder="Usuario" name="username"/>
+		<input  style="font-size: 20px;padding: 10px;" size="10" type="text" class = "form-control" placeholder="Usuario" name="username"/>
 	</div>
 
 	<p></p>
 
 	<div class = "form-group">
-		<input style="font-size: 20px; padding: 10px;" size="40" type="password" class = "form-control" placeholder="Contraseña" name="password"/>
+		<input style="font-size: 20px; padding: 10px;" size="10" type="password" class = "form-control" placeholder="Contraseña" name="password"/>
 	</div>
 <p></p>
 	<div class = "form-group">

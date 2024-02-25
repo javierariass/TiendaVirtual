@@ -1,1 +1,1 @@
-Bienvenido aqui encontraras todos los productos
+Bienvenido aqui encontraras las ultimas ofertas
